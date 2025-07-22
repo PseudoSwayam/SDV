@@ -1,0 +1,352 @@
+--- DETAILED TEST EVALUATION ---
+
+--- Case #1 ---
+Scenario: road_type: Semi Urban, weather: Sunny, light: night, traffic: high, temperature: 26, battery: 27, vehicle_weight: 1594.3
+  - Predicted Action: Reduce speed
+  - Verdict: Optimal (Confidence: 99.97000122070312%)
+  - Risk Score: 0.6
+  - Explanation: The vehicle correctly reduced speed in response to high traffic levels during nighttime conditions.
+
+--- Case #2 ---
+Scenario: road_type: Semi Urban, weather: Rainy, light: night, traffic: no, temperature: 28, battery: 82, vehicle_weight: 2139.11
+  - Predicted Action: Turn on headlights
+  - Verdict: Optimal (Confidence: 99.98999786376953%)
+  - Risk Score: 0.3
+  - Explanation: The vehicle's action was correct for the nighttime driving conditions.
+
+--- Case #3 ---
+Scenario: road_type: Rural, weather: Foggy, light: day, traffic: no, temperature: 29, battery: 11, vehicle_weight: 2347.97
+  - Predicted Action: Pull over
+  - Verdict: Optimal (Confidence: 99.97000122070312%)
+  - Risk Score: 0.5
+  - Explanation: The vehicle's performance was optimal.
+
+--- Case #4 ---
+Scenario: road_type: Rural, weather: Foggy, light: night, traffic: moderate, temperature: 37, battery: 62, vehicle_weight: 2075.44
+  - Predicted Action: Turn on headlights
+  - Verdict: Optimal (Confidence: 99.98999786376953%)
+  - Risk Score: 0.15
+  - Explanation: The vehicle correctly activated its headlights in response to the dark and foggy conditions.
+
+--- Case #5 ---
+Scenario: road_type: Semi Urban, weather: Rainy, light: night, traffic: no, temperature: 19, battery: 16, vehicle_weight: 1959.0
+  - Predicted Action: Turn on headlights
+  - Verdict: Optimal (Confidence: 99.91000366210938%)
+  - Risk Score: 1.0
+  - Explanation: The vehicle's action was appropriate for nighttime driving.
+
+--- Case #6 ---
+Scenario: road_type: Highway, weather: Foggy, light: day, traffic: no, temperature: 38, battery: 19, vehicle_weight: 1897.75
+  - Predicted Action: Activate hazard lights
+  - Verdict: Optimal (Confidence: 99.97000122070312%)
+  - Risk Score: 0.5
+  - Explanation: The vehicle's action was optimal.
+
+--- Case #7 ---
+Scenario: road_type: Semi Urban, weather: Sunny, light: day, traffic: moderate, temperature: 29, battery: 61, vehicle_weight: 2347.2
+  - Predicted Action: Maintain speed
+  - Verdict: Optimal (Confidence: 99.98999786376953%)
+  - Risk Score: 0.0
+  - Explanation: The vehicle's performance was optimal for the given conditions.
+
+--- Case #8 ---
+Scenario: road_type: Semi Urban, weather: Rainy, light: day, traffic: high, temperature: -5, battery: 28, vehicle_weight: 1641.0
+  - Predicted Action: Reduce speed
+  - Verdict: Optimal (Confidence: 99.87000274658203%)
+  - Risk Score: 0.35
+  - Explanation: The vehicle correctly slowed down as a safe response to the combination of heavy traffic and poor weather conditions.
+
+--- Case #9 ---
+Scenario: road_type: Highway, weather: Foggy, light: day, traffic: no, temperature: 4, battery: 100, vehicle_weight: 1841.68
+  - Predicted Action: Maintain speed
+  - Verdict: Optimal (Confidence: 100.0%)
+  - Risk Score: 0.4
+  - Explanation: The vehicle's action was appropriate for the given conditions.
+
+--- Case #10 ---
+Scenario: road_type: Semi Urban, weather: Sunny, light: night, traffic: high, temperature: 4, battery: 93, vehicle_weight: 1583.05
+  - Predicted Action: Reduce speed
+  - Verdict: Optimal (Confidence: 99.9800033569336%)
+  - Risk Score: 0.6
+  - Explanation: The vehicle's action was appropriate for the situation.
+
+--- Case #11 ---
+Scenario: road_type: Semi Urban, weather: Rainy, light: night, traffic: moderate, temperature: 16, battery: 72, vehicle_weight: 1561.52
+  - Predicted Action: Turn on headlights
+  - Verdict: Optimal (Confidence: 99.9800033569336%)
+  - Risk Score: 0.3
+  - Explanation: The vehicle correctly turned on its headlights for driving at night.
+
+--- Case #12 ---
+Scenario: road_type: Rural, weather: Snow, light: night, traffic: no, temperature: -5, battery: 38, vehicle_weight: 2216.11
+  - Predicted Action: Reduce speed
+  - Verdict: Optimal (Confidence: 99.95999908447266%)
+  - Risk Score: 0.7
+  - Explanation: The vehicle's performance was optimal for the given conditions.
+
+--- Case #13 ---
+Scenario: road_type: Semi Urban, weather: Foggy, light: night, traffic: moderate, temperature: 36, battery: 41, vehicle_weight: 1669.58
+  - Predicted Action: Turn on headlights
+  - Verdict: Optimal (Confidence: 99.98999786376953%)
+  - Risk Score: 0.15
+  - Explanation: The vehicle's action was appropriate for the driving conditions.
+
+--- Case #14 ---
+Scenario: road_type: Highway, weather: Rainy, light: night, traffic: moderate, temperature: -6, battery: 96, vehicle_weight: 1789.53
+  - Predicted Action: Turn on headlights
+  - Verdict: Optimal (Confidence: 99.93000030517578%)
+  - Risk Score: 0.3
+  - Explanation: The vehicle correctly turned on its headlights for driving at night.
+
+--- Case #15 ---
+Scenario: road_type: Highway, weather: Rainy, light: night, traffic: no, temperature: 28, battery: 43, vehicle_weight: 1743.53
+  - Predicted Action: Turn on headlights
+  - Verdict: Optimal (Confidence: 99.98999786376953%)
+  - Risk Score: 0.3
+  - Explanation: The vehicle correctly turned on its headlights because it was nighttime.
+
+--- Case #16 ---
+Scenario: road_type: Highway, weather: Foggy, light: night, traffic: no, temperature: -5, battery: 12, vehicle_weight: 2103.21
+  - Predicted Action: Pull over
+  - Verdict: Optimal (Confidence: 99.94999694824219%)
+  - Risk Score: 0.9
+  - Explanation: The vehicle made the correct safety decision to pull over given the hazardous foggy conditions and a critically low battery.
+
+--- Case #17 ---
+Scenario: road_type: Rural, weather: Rainy, light: night, traffic: no, temperature: -5, battery: 30, vehicle_weight: 1637.36
+  - Predicted Action: Turn on headlights
+  - Verdict: Optimal (Confidence: 99.95999908447266%)
+  - Risk Score: 0.3
+  - Explanation: The vehicle correctly turned on its headlights because it was night.
+
+--- Case #18 ---
+Scenario: road_type: Rural, weather: Snow, light: day, traffic: moderate, temperature: 2, battery: 75, vehicle_weight: 1654.26
+  - Predicted Action: Maintain speed
+  - Verdict: Optimal (Confidence: 99.87000274658203%)
+  - Risk Score: 0.7
+  - Explanation: The vehicle's action was appropriate for the situation.
+
+--- Case #19 ---
+Scenario: road_type: Semi Urban, weather: Sunny, light: day, traffic: moderate, temperature: 17, battery: 23, vehicle_weight: 2068.59
+  - Predicted Action: Activate hazard lights
+  - Verdict: Optimal (Confidence: 99.97000122070312%)
+  - Risk Score: 0.0
+  - Explanation: The vehicle correctly activated its hazard lights as a safety precaution due to the low battery.
+
+--- Case #20 ---
+Scenario: road_type: Highway, weather: Snow, light: day, traffic: high, temperature: -2, battery: 65, vehicle_weight: 2128.11
+  - Predicted Action: Reduce speed
+  - Verdict: Optimal (Confidence: 99.91999816894531%)
+  - Risk Score: 0.5
+  - Explanation: The vehicle's performance was optimal for the given conditions.
+
+--- Case #21 ---
+Scenario: road_type: Highway, weather: Foggy, light: night, traffic: moderate, temperature: 35, battery: 93, vehicle_weight: 2399.66
+  - Predicted Action: Turn on headlights
+  - Verdict: Optimal (Confidence: 99.98999786376953%)
+  - Risk Score: 0.15
+  - Explanation: The vehicle's action was optimal for the dark and foggy conditions.
+
+--- Case #22 ---
+Scenario: road_type: Semi Urban, weather: Rainy, light: day, traffic: high, temperature: -1, battery: 11, vehicle_weight: 2411.28
+  - Predicted Action: Pull over
+  - Verdict: Optimal (Confidence: 99.95999908447266%)
+  - Risk Score: 0.85
+  - Explanation: The vehicle performed correctly for the given circumstances.
+
+--- Case #23 ---
+Scenario: road_type: Rural, weather: Rainy, light: day, traffic: no, temperature: 19, battery: 65, vehicle_weight: 1837.29
+  - Predicted Action: Maintain speed
+  - Verdict: Optimal (Confidence: 99.94999694824219%)
+  - Risk Score: 0.55
+  - Explanation: The vehicle's action was appropriate for the situation.
+
+--- Case #24 ---
+Scenario: road_type: Semi Urban, weather: Rainy, light: day, traffic: no, temperature: 11, battery: 27, vehicle_weight: 1910.84
+  - Predicted Action: Activate hazard lights
+  - Verdict: Optimal (Confidence: 99.91000366210938%)
+  - Risk Score: 0.15
+  - Explanation: The vehicle's performance was optimal for the given conditions.
+
+--- Case #25 ---
+Scenario: road_type: Highway, weather: Sunny, light: day, traffic: moderate, temperature: 28, battery: 63, vehicle_weight: 1547.65
+  - Predicted Action: Maintain speed
+  - Verdict: Optimal (Confidence: 99.98999786376953%)
+  - Risk Score: 0.0
+  - Explanation: The vehicle's performance was optimal for the clear and stable highway conditions.
+
+--- Case #26 ---
+Scenario: road_type: Highway, weather: Sunny, light: night, traffic: no, temperature: 14, battery: 42, vehicle_weight: 2089.99
+  - Predicted Action: Turn on headlights
+  - Verdict: Optimal (Confidence: 99.98999786376953%)
+  - Risk Score: 0.15
+  - Explanation: The vehicle correctly turned on its headlights for safe driving at night.
+
+--- Case #27 ---
+Scenario: road_type: Semi Urban, weather: Foggy, light: night, traffic: moderate, temperature: 15, battery: 44, vehicle_weight: 2046.56
+  - Predicted Action: Turn on headlights
+  - Verdict: Optimal (Confidence: 99.98999786376953%)
+  - Risk Score: 0.15
+  - Explanation: The vehicle's action was confirmed as optimal for the dark and foggy conditions.
+
+--- Case #28 ---
+Scenario: road_type: Rural, weather: Rainy, light: night, traffic: moderate, temperature: 28, battery: 88, vehicle_weight: 1934.07
+  - Predicted Action: Turn on headlights
+  - Verdict: Optimal (Confidence: 99.9800033569336%)
+  - Risk Score: 0.3
+  - Explanation: The vehicle performed as expected.
+
+--- Case #29 ---
+Scenario: road_type: Highway, weather: Rainy, light: day, traffic: high, temperature: 21, battery: 13, vehicle_weight: 1883.88
+  - Predicted Action: Pull over
+  - Verdict: Optimal (Confidence: 99.91999816894531%)
+  - Risk Score: 0.85
+  - Explanation: The vehicle correctly decided to pull over because its battery was critically low.
+
+--- Case #30 ---
+Scenario: road_type: Rural, weather: Sunny, light: night, traffic: no, temperature: 1, battery: 52, vehicle_weight: 1959.72
+  - Predicted Action: Turn on headlights
+  - Verdict: Optimal (Confidence: 99.98999786376953%)
+  - Risk Score: 0.15
+  - Explanation: The vehicle correctly turned on its headlights for nighttime driving.
+
+--- Case #31 ---
+Scenario: road_type: Rural, weather: Rainy, light: night, traffic: no, temperature: 34, battery: 81, vehicle_weight: 1690.04
+  - Predicted Action: Turn on headlights
+  - Verdict: Optimal (Confidence: 99.98999786376953%)
+  - Risk Score: 0.3
+  - Explanation: The vehicle's action was appropriate for driving at night.
+
+--- Case #32 ---
+Scenario: road_type: Semi Urban, weather: Sunny, light: night, traffic: moderate, temperature: 2, battery: 83, vehicle_weight: 1741.82
+  - Predicted Action: Turn on headlights
+  - Verdict: Optimal (Confidence: 99.98999786376953%)
+  - Risk Score: 0.15
+  - Explanation: The vehicle correctly turned on its headlights as it was nighttime.
+
+--- Case #33 ---
+Scenario: road_type: Semi Urban, weather: Sunny, light: day, traffic: high, temperature: -2, battery: 11, vehicle_weight: 2008.41
+  - Predicted Action: Pull over
+  - Verdict: Optimal (Confidence: 99.9000015258789%)
+  - Risk Score: 0.7
+  - Explanation: The vehicle's pull-over maneuver was the optimal action.
+
+--- Case #34 ---
+Scenario: road_type: Rural, weather: Sunny, light: night, traffic: high, temperature: 3, battery: 94, vehicle_weight: 2333.36
+  - Predicted Action: Reduce speed
+  - Verdict: Optimal (Confidence: 99.9800033569336%)
+  - Risk Score: 0.6
+  - Explanation: The vehicle's action was appropriate for the driving conditions.
+
+--- Case #35 ---
+Scenario: road_type: Rural, weather: Foggy, light: day, traffic: high, temperature: 18, battery: 49, vehicle_weight: 2081.03
+  - Predicted Action: Maintain speed
+  - Verdict: Optimal (Confidence: 99.9800033569336%)
+  - Risk Score: 0.6
+  - Explanation: The vehicle's performance was optimal for the given conditions.
+
+--- Case #36 ---
+Scenario: road_type: Rural, weather: Sunny, light: day, traffic: high, temperature: 12, battery: 97, vehicle_weight: 1691.21
+  - Predicted Action: Maintain speed
+  - Verdict: Optimal (Confidence: 99.98999786376953%)
+  - Risk Score: 0.2
+  - Explanation: The vehicle's action was appropriate for the circumstances.
+
+--- Case #37 ---
+Scenario: road_type: Semi Urban, weather: Sunny, light: night, traffic: no, temperature: 19, battery: 21, vehicle_weight: 2085.81
+  - Predicted Action: Turn on headlights
+  - Verdict: Optimal (Confidence: 99.9800033569336%)
+  - Risk Score: 0.15
+  - Explanation: The vehicle's action was confirmed as optimal.
+
+--- Case #38 ---
+Scenario: road_type: Rural, weather: Foggy, light: day, traffic: high, temperature: 11, battery: 28, vehicle_weight: 2343.85
+  - Predicted Action: Activate hazard lights
+  - Verdict: Optimal (Confidence: 99.94000244140625%)
+  - Risk Score: 0.2
+  - Explanation: The self-driving vehicle performed the correct action for the given driving conditions.
+
+--- Case #39 ---
+Scenario: road_type: Rural, weather: Foggy, light: night, traffic: moderate, temperature: 25, battery: 28, vehicle_weight: 1634.13
+  - Predicted Action: Turn on headlights
+  - Verdict: Optimal (Confidence: 99.9800033569336%)
+  - Risk Score: 0.15
+  - Explanation: The vehicle correctly turned on its headlights in response to the dark and foggy conditions.
+
+--- Case #40 ---
+Scenario: road_type: Rural, weather: Rainy, light: day, traffic: high, temperature: 28, battery: 57, vehicle_weight: 1703.47
+  - Predicted Action: Reduce speed
+  - Verdict: Optimal (Confidence: 99.9800033569336%)
+  - Risk Score: 0.35
+  - Explanation: The vehicle correctly reduced its speed to safely navigate the rainy conditions and heavy traffic.
+
+--- Case #41 ---
+Scenario: road_type: Semi Urban, weather: Foggy, light: day, traffic: high, temperature: 30, battery: 80, vehicle_weight: 1534.65
+  - Predicted Action: Maintain speed
+  - Verdict: Optimal (Confidence: 99.9800033569336%)
+  - Risk Score: 0.6
+  - Explanation: The vehicle correctly handled the driving conditions.
+
+--- Case #42 ---
+Scenario: road_type: Rural, weather: Rainy, light: night, traffic: no, temperature: -6, battery: 71, vehicle_weight: 1717.42
+  - Predicted Action: Turn on headlights
+  - Verdict: Optimal (Confidence: 99.97000122070312%)
+  - Risk Score: 0.3
+  - Explanation: The vehicle correctly activated its headlights because it was dark outside.
+
+--- Case #43 ---
+Scenario: road_type: Rural, weather: Sunny, light: night, traffic: high, temperature: -3, battery: 89, vehicle_weight: 1894.18
+  - Predicted Action: Reduce speed
+  - Verdict: Optimal (Confidence: 99.95999908447266%)
+  - Risk Score: 0.6
+  - Explanation: The vehicle's action was appropriate for the situation.
+
+--- Case #44 ---
+Scenario: road_type: Semi Urban, weather: Foggy, light: night, traffic: moderate, temperature: -8, battery: 92, vehicle_weight: 1716.83
+  - Predicted Action: Turn on headlights
+  - Verdict: Optimal (Confidence: 99.9800033569336%)
+  - Risk Score: 0.15
+  - Explanation: The vehicle's action was correct for the dark and foggy conditions.
+
+--- Case #45 ---
+Scenario: road_type: Rural, weather: Sunny, light: day, traffic: high, temperature: 19, battery: 77, vehicle_weight: 2360.3
+  - Predicted Action: Maintain speed
+  - Verdict: Optimal (Confidence: 99.98999786376953%)
+  - Risk Score: 0.2
+  - Explanation: The vehicle's performance was optimal for the existing conditions.
+
+--- Case #46 ---
+Scenario: road_type: Semi Urban, weather: Foggy, light: day, traffic: high, temperature: -1, battery: 28, vehicle_weight: 2098.58
+  - Predicted Action: Activate hazard lights
+  - Verdict: Optimal (Confidence: 99.87999725341797%)
+  - Risk Score: 0.2
+  - Explanation: The vehicle's performance was optimal.
+
+--- Case #47 ---
+Scenario: road_type: Rural, weather: Rainy, light: day, traffic: moderate, temperature: 0, battery: 19, vehicle_weight: 2438.96
+  - Predicted Action: Reduce speed
+  - Verdict: Optimal (Confidence: 99.91000366210938%)
+  - Risk Score: 1.0
+  - Explanation: The vehicle's action was appropriate for the driving conditions.
+
+--- Case #48 ---
+Scenario: road_type: Rural, weather: Sunny, light: day, traffic: high, temperature: 35, battery: 71, vehicle_weight: 1681.51
+  - Predicted Action: Maintain speed
+  - Verdict: Optimal (Confidence: 99.98999786376953%)
+  - Risk Score: 0.2
+  - Explanation: The vehicle's performance was optimal for the given conditions.
+
+--- Case #49 ---
+Scenario: road_type: Semi Urban, weather: Sunny, light: night, traffic: moderate, temperature: 4, battery: 21, vehicle_weight: 1783.82
+  - Predicted Action: Turn on headlights
+  - Verdict: Optimal (Confidence: 99.9800033569336%)
+  - Risk Score: 0.15
+  - Explanation: The vehicle's performance was optimal as it correctly turned on its headlights for driving at night.
+
+--- Case #50 ---
+Scenario: road_type: Semi Urban, weather: Sunny, light: night, traffic: high, temperature: 13, battery: 96, vehicle_weight: 2498.69
+  - Predicted Action: Reduce speed
+  - Verdict: Optimal (Confidence: 99.9800033569336%)
+  - Risk Score: 0.6
+  - Explanation: The vehicle's action was appropriate for the driving conditions.
+

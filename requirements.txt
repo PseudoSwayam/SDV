@@ -1,0 +1,15 @@
+# --- Core ML & Data Handling ---
+pandas
+numpy
+scikit-learn
+xgboost
+joblib
+
+# --- API Framework & Server ---
+fastapi
+uvicorn[standard]
+python-multipart
+
+# --- External APIs & Utilities ---
+google-generativeai
+python-dotenv

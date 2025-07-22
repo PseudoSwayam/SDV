@@ -1,0 +1,51 @@
+road_type,weather,light,traffic,temperature,battery,vehicle_weight,predicted_action,verdict,confidence_percent,risk_score,nlp_explanation
+Semi Urban,Sunny,night,high,26,27,1594.3,Reduce speed,Optimal,99.97,0.6,The vehicle correctly reduced speed in response to high traffic levels during nighttime conditions.
+Semi Urban,Rainy,night,no,28,82,2139.11,Turn on headlights,Optimal,99.99,0.3,The vehicle's action was correct for the nighttime driving conditions.
+Rural,Foggy,day,no,29,11,2347.97,Pull over,Optimal,99.97,0.5,The vehicle's performance was optimal.
+Rural,Foggy,night,moderate,37,62,2075.44,Turn on headlights,Optimal,99.99,0.15,The vehicle correctly activated its headlights in response to the dark and foggy conditions.
+Semi Urban,Rainy,night,no,19,16,1959.0,Turn on headlights,Optimal,99.91,1.0,The vehicle's action was appropriate for nighttime driving.
+Highway,Foggy,day,no,38,19,1897.75,Activate hazard lights,Optimal,99.97,0.5,The vehicle's action was optimal.
+Semi Urban,Sunny,day,moderate,29,61,2347.2,Maintain speed,Optimal,99.99,0.0,The vehicle's performance was optimal for the given conditions.
+Semi Urban,Rainy,day,high,-5,28,1641.0,Reduce speed,Optimal,99.87,0.35,The vehicle correctly slowed down as a safe response to the combination of heavy traffic and poor weather conditions.
+Highway,Foggy,day,no,4,100,1841.68,Maintain speed,Optimal,100.0,0.4,The vehicle's action was appropriate for the given conditions.
+Semi Urban,Sunny,night,high,4,93,1583.05,Reduce speed,Optimal,99.98,0.6,The vehicle's action was appropriate for the situation.
+Semi Urban,Rainy,night,moderate,16,72,1561.52,Turn on headlights,Optimal,99.98,0.3,The vehicle correctly turned on its headlights for driving at night.
+Rural,Snow,night,no,-5,38,2216.11,Reduce speed,Optimal,99.96,0.7,The vehicle's performance was optimal for the given conditions.
+Semi Urban,Foggy,night,moderate,36,41,1669.58,Turn on headlights,Optimal,99.99,0.15,The vehicle's action was appropriate for the driving conditions.
+Highway,Rainy,night,moderate,-6,96,1789.53,Turn on headlights,Optimal,99.93,0.3,The vehicle correctly turned on its headlights for driving at night.
+Highway,Rainy,night,no,28,43,1743.53,Turn on headlights,Optimal,99.99,0.3,The vehicle correctly turned on its headlights because it was nighttime.
+Highway,Foggy,night,no,-5,12,2103.21,Pull over,Optimal,99.95,0.9,The vehicle made the correct safety decision to pull over given the hazardous foggy conditions and a critically low battery.
+Rural,Rainy,night,no,-5,30,1637.36,Turn on headlights,Optimal,99.96,0.3,The vehicle correctly turned on its headlights because it was night.
+Rural,Snow,day,moderate,2,75,1654.26,Maintain speed,Optimal,99.87,0.7,The vehicle's action was appropriate for the situation.
+Semi Urban,Sunny,day,moderate,17,23,2068.59,Activate hazard lights,Optimal,99.97,0.0,The vehicle correctly activated its hazard lights as a safety precaution due to the low battery.
+Highway,Snow,day,high,-2,65,2128.11,Reduce speed,Optimal,99.92,0.5,The vehicle's performance was optimal for the given conditions.
+Highway,Foggy,night,moderate,35,93,2399.66,Turn on headlights,Optimal,99.99,0.15,The vehicle's action was optimal for the dark and foggy conditions.
+Semi Urban,Rainy,day,high,-1,11,2411.28,Pull over,Optimal,99.96,0.85,The vehicle performed correctly for the given circumstances.
+Rural,Rainy,day,no,19,65,1837.29,Maintain speed,Optimal,99.95,0.55,The vehicle's action was appropriate for the situation.
+Semi Urban,Rainy,day,no,11,27,1910.84,Activate hazard lights,Optimal,99.91,0.15,The vehicle's performance was optimal for the given conditions.
+Highway,Sunny,day,moderate,28,63,1547.65,Maintain speed,Optimal,99.99,0.0,The vehicle's performance was optimal for the clear and stable highway conditions.
+Highway,Sunny,night,no,14,42,2089.99,Turn on headlights,Optimal,99.99,0.15,The vehicle correctly turned on its headlights for safe driving at night.
+Semi Urban,Foggy,night,moderate,15,44,2046.56,Turn on headlights,Optimal,99.99,0.15,The vehicle's action was confirmed as optimal for the dark and foggy conditions.
+Rural,Rainy,night,moderate,28,88,1934.07,Turn on headlights,Optimal,99.98,0.3,The vehicle performed as expected.
+Highway,Rainy,day,high,21,13,1883.88,Pull over,Optimal,99.92,0.85,The vehicle correctly decided to pull over because its battery was critically low.
+Rural,Sunny,night,no,1,52,1959.72,Turn on headlights,Optimal,99.99,0.15,The vehicle correctly turned on its headlights for nighttime driving.
+Rural,Rainy,night,no,34,81,1690.04,Turn on headlights,Optimal,99.99,0.3,The vehicle's action was appropriate for driving at night.
+Semi Urban,Sunny,night,moderate,2,83,1741.82,Turn on headlights,Optimal,99.99,0.15,The vehicle correctly turned on its headlights as it was nighttime.
+Semi Urban,Sunny,day,high,-2,11,2008.41,Pull over,Optimal,99.9,0.7,The vehicle's pull-over maneuver was the optimal action.
+Rural,Sunny,night,high,3,94,2333.36,Reduce speed,Optimal,99.98,0.6,The vehicle's action was appropriate for the driving conditions.
+Rural,Foggy,day,high,18,49,2081.03,Maintain speed,Optimal,99.98,0.6,The vehicle's performance was optimal for the given conditions.
+Rural,Sunny,day,high,12,97,1691.21,Maintain speed,Optimal,99.99,0.2,The vehicle's action was appropriate for the circumstances.
+Semi Urban,Sunny,night,no,19,21,2085.81,Turn on headlights,Optimal,99.98,0.15,The vehicle's action was confirmed as optimal.
+Rural,Foggy,day,high,11,28,2343.85,Activate hazard lights,Optimal,99.94,0.2,The self-driving vehicle performed the correct action for the given driving conditions.
+Rural,Foggy,night,moderate,25,28,1634.13,Turn on headlights,Optimal,99.98,0.15,The vehicle correctly turned on its headlights in response to the dark and foggy conditions.
+Rural,Rainy,day,high,28,57,1703.47,Reduce speed,Optimal,99.98,0.35,The vehicle correctly reduced its speed to safely navigate the rainy conditions and heavy traffic.
+Semi Urban,Foggy,day,high,30,80,1534.65,Maintain speed,Optimal,99.98,0.6,The vehicle correctly handled the driving conditions.
+Rural,Rainy,night,no,-6,71,1717.42,Turn on headlights,Optimal,99.97,0.3,The vehicle correctly activated its headlights because it was dark outside.
+Rural,Sunny,night,high,-3,89,1894.18,Reduce speed,Optimal,99.96,0.6,The vehicle's action was appropriate for the situation.
+Semi Urban,Foggy,night,moderate,-8,92,1716.83,Turn on headlights,Optimal,99.98,0.15,The vehicle's action was correct for the dark and foggy conditions.
+Rural,Sunny,day,high,19,77,2360.3,Maintain speed,Optimal,99.99,0.2,The vehicle's performance was optimal for the existing conditions.
+Semi Urban,Foggy,day,high,-1,28,2098.58,Activate hazard lights,Optimal,99.88,0.2,The vehicle's performance was optimal.
+Rural,Rainy,day,moderate,0,19,2438.96,Reduce speed,Optimal,99.91,1.0,The vehicle's action was appropriate for the driving conditions.
+Rural,Sunny,day,high,35,71,1681.51,Maintain speed,Optimal,99.99,0.2,The vehicle's performance was optimal for the given conditions.
+Semi Urban,Sunny,night,moderate,4,21,1783.82,Turn on headlights,Optimal,99.98,0.15,The vehicle's performance was optimal as it correctly turned on its headlights for driving at night.
+Semi Urban,Sunny,night,high,13,96,2498.69,Reduce speed,Optimal,99.98,0.6,The vehicle's action was appropriate for the driving conditions.
