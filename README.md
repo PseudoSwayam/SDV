@@ -1,7 +1,3 @@
-Here's a properly formatted and professional `README.md` file suitable for a GitHub repository:
-
----
-
 # 🚗 AI-Powered Module Builder & Intelligent Tester for SDV Simulation
 
 This project delivers a complete, end-to-end Python application that builds and evaluates a machine learning-based decision module for a simulated Self-Driving Vehicle (SDV). It features a smart **Decision Module** that learns driving logic, an **AI Tester** that assesses its performance, and an integrated system for risk scoring and natural language feedback using the **Google Gemini API**.
