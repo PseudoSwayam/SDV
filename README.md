@@ -244,7 +244,3 @@ uvicorn src.api:app --reload
 ## 📄 License
 
 This project is provided under the MIT License. See [`LICENSE`](LICENSE) for details.
-
----
-
-Let me know if you’d like a `LICENSE` file, `CONTRIBUTING.md`, or example notebook added too!
